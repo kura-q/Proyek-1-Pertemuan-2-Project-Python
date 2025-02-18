@@ -9,8 +9,6 @@ def konvertCm(angka) :
         angka = angka * 100
     elif pilihan == "DM" :
         angka = angka * 1000
-    elif pilihan == "CM" :
-        angka = angka * 10000
     elif pilihan == "MM" :
         angka = angka * 100000
     else :
