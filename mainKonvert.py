@@ -1,7 +1,7 @@
-from konvertKM import * 
+from konvert_KM import * 
 from konvertHM import *
 from konvert_dam import *
-from konvertM import *
+from konvert_m import *
 from convert_dm import *
 from konvertCm import *
 from MMconversion import *
@@ -27,7 +27,7 @@ elif pilih == "MM" :
 
 print(f"Hasil konversi: {hasil}")
 
-simpan_riwayat_json(pilih, angka, hasil)
+simpan_riwayat_text(pilih, angka, hasil)
 
 while True:
     print("\nMenu Riwayat:")
